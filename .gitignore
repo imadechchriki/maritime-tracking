@@ -1,0 +1,79 @@
+############################
+# Scala / SBT
+############################
+target/
+project/target/
+project/project/
+project/.bsp/
+.metals/
+.bloop/
+.bsp/
+*.class
+*.log
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+out/
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Environment & secrets
+############################
+.env
+.env.*
+*.secret
+*.key
+
+############################
+# Spark
+############################
+spark-logs/
+derby.log
+metastore_db/
+
+############################
+# Docker
+############################
+**/docker-data/
+**/data/
+**/logs/
+**/tmp/
+
+############################
+# Docker Compose volumes (local mounts)
+############################
+hadoop_namenode/
+hadoop_datanode/
+postgres_data/
+spark-logs/
+
+############################
+# Jupyter
+############################
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+############################
+# Build artifacts
+############################
+*.jar
+*.war
+*.zip
+
+############################
+# Scala worksheets / temp
+############################
+*.sc~
